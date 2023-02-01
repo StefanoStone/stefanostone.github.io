@@ -1,7 +1,4 @@
-<style>
-  * {
-  cursor: help;
-  }
-</style>
-
 # stefanostone.github.io
+
+
+<style> * { cursor: help; } </style>
