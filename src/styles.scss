@@ -17,6 +17,8 @@ $custom-text-grey: #6C757D;
 html {
   cursor: none;
   font-family: 'Hubot Sans', sans-serif;
+  height: 100% !important;
+  background-color: #F8F9FA !important;
 }
 
 body *, body button {

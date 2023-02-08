@@ -1,9 +1,9 @@
 #cursor {
   background-color: black;
-  border-radius: 25px;
+  border-radius: 5px;
 
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
 
   display: block;
   position: absolute;
@@ -22,5 +22,23 @@
 @-webkit-keyframes blink {
   50% {
     opacity: 0.0;
+  }
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bar {
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid black;
+  }
+
+  p {
+    color: #6C757D;
   }
 }
