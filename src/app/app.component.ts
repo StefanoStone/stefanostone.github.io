@@ -7,22 +7,18 @@ import {Component, HostListener} from '@angular/core';
 })
 export class AppComponent {
   title = 'stefanostone.github.io';
-  top: any;
-  left: any;
-
   cursor: any;
+
   constructor() {
-    this.cursor = document.getElementById("cursor");
   }
 
-  @HostListener('document:click', ['$event'])
-  onClick(e: any) {
-    console.log(e);
+  ngOnInit() {
+    this.cursor = document.getElementById("cursor");
   }
 
   @HostListener('document:mousemove', ['$event'])
   onMousemove(e: any) {
-    this.top = e.pageY + "px";
-    this.left = e.pageX + "px";
+    this.cursor.style.top = e.pageY + "px";
+    this.cursor.style.left = e.pageX + "px";
   }
 }
