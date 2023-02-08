@@ -1,0 +1,26 @@
+#cursor {
+  background-color: black;
+  border-radius: 25px;
+
+  height: 50px;
+  width: 50px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}

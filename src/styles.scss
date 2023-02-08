@@ -13,6 +13,12 @@ $custom-text-grey: #6C757D;
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
+
 html {
+  cursor: none;
   font-family: 'Hubot Sans', sans-serif;
+}
+
+body *, body button {
+  cursor: none !important;
 }
