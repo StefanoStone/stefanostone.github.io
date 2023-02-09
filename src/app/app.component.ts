@@ -10,6 +10,7 @@ export class AppComponent {
 
   tabs = Tabs;
   tabsStatus = [true, false, false, false];
+  switching = false;
   cursor: any;
 
   constructor() {
@@ -26,8 +27,12 @@ export class AppComponent {
   }
 
   selectTab(tab: number) {
+    if (this.switching) return;
+
+    this.switching = true;
     this.tabsStatus = [false, false, false, false];
     setTimeout(() => {
+      this.switching = false;
       this.tabsStatus[tab] = true;
       this.switchContext(tab);
       }, 700);
