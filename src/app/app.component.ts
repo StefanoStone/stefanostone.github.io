@@ -1,5 +1,6 @@
 import {Component, HostListener} from '@angular/core';
 import {Tabs} from "./models/tabs";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ export class AppComponent {
   switching = false;
   cursor: any;
 
-  constructor() {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
@@ -39,6 +40,21 @@ export class AppComponent {
   }
 
   switchContext(tab: number) {
-    // TODO switch context
+    switch (tab) {
+      case Tabs.about:
+        this.router.navigate(['/about'])
+        break;
+      case Tabs.resume:
+        this.router.navigate(['/resume'])
+        break;
+      case Tabs.education:
+        this.router.navigate(['/education'])
+        break;
+      case Tabs.contacts:
+        this.router.navigate(['/contacts'])
+        break;
+      default:
+        this.router.navigate(['/about'])
+    }
   }
 }
