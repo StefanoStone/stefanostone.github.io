@@ -4,6 +4,12 @@
   align-items: center;
   flex-direction: column;
 
+  a {
+    color: #1D1F20;
+    font-stretch: 85%;
+    text-decoration: none;
+  }
+
   #header {
     display: flex;
     width: 80%;
