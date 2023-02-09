@@ -4,6 +4,12 @@
   align-items: center;
   flex-direction: column;
 
+  a {
+    color: #1D1F20;
+    font-stretch: 85%;
+    text-decoration: none;
+  }
+
   #header {
     display: flex;
     width: 80%;
@@ -51,6 +57,9 @@
       font-weight: 500;
       font-stretch: 125%;
       color: #1D1F20;
+      background: #E5E5E5;
+      padding: 5px;
+      border-radius: 5px;
     }
   }
 
