@@ -44,6 +44,12 @@
     padding: 10px;
   }
 
+  @media (max-width: 425px) {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+
   p:hover {
     border: 2px solid #6C757D;
     border-radius: 5px;
