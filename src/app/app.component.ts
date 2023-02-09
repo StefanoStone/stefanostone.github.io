@@ -1,6 +1,6 @@
 import {Component, HostListener} from '@angular/core';
 import {Tabs} from "./models/tabs";
-import {Router} from "@angular/router";
+import {NavigationEnd, Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import {Router} from "@angular/router";
 export class AppComponent {
 
   tabs = Tabs;
-  tabsStatus = [true, false, false, false];
+  tabsStatus: boolean[] = [true, false, false, false];
   switching = false;
   cursor: any;
 
@@ -18,6 +18,15 @@ export class AppComponent {
   }
 
   ngOnInit() {
+    this.router.events.subscribe((e) => {
+      if (e instanceof NavigationEnd) {
+        if (this.router.url === '/about') this.tabsStatus = [true, false, false, false];
+        if (this.router.url === '/resume') this.tabsStatus = [false, true, false, false];
+        if (this.router.url === '/education') this.tabsStatus = [false, false, true, false];
+        if (this.router.url === '/contacts') this.tabsStatus = [false, false, false, true];
+      }
+    });
+
     this.cursor = document.getElementById("cursor");
   }
 
