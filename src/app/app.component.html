@@ -1,9 +1,9 @@
 <div class="body">
   <div class="bar">
-    <p class="selected">ABOUT</p>
-    <p>RESUME</p>
-    <p>EDUCATION</p>
-    <p>CONTACTS</p>
+    <span class="tab" (click)="selectTab(tabs.about)"><p [ngClass]="{'selected': tabsStatus[0]}">ABOUT</p></span>
+    <span class="tab" (click)="selectTab(tabs.resume)"><p [ngClass]="{'selected': tabsStatus[1]}">RESUME</p></span>
+    <span class="tab" (click)="selectTab(tabs.education)"><p [ngClass]="{'selected': tabsStatus[2]}">EDUCATION</p></span>
+    <span class="tab" (click)="selectTab(tabs.contacts)"><p [ngClass]="{'selected': tabsStatus[3]}">CONTACTS</p></span>
   </div>
 </div>
 <div id="cursor"></div>

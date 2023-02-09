@@ -1,4 +1,5 @@
 import {Component, HostListener} from '@angular/core';
+import {Tabs} from "./models/tabs";
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,9 @@ import {Component, HostListener} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'stefanostone.github.io';
+
+  tabs = Tabs;
+  tabsStatus = [true, false, false, false];
   cursor: any;
 
   constructor() {
@@ -20,5 +23,17 @@ export class AppComponent {
   onMousemove(e: any) {
     this.cursor.style.top = e.pageY + "px";
     this.cursor.style.left = e.pageX + "px";
+  }
+
+  selectTab(tab: number) {
+    this.tabsStatus = [false, false, false, false];
+    setTimeout(() => {
+      this.tabsStatus[tab] = true;
+      this.switchContext(tab);
+      }, 700);
+  }
+
+  switchContext(tab: number) {
+    // TODO switch context
   }
 }
