@@ -1,0 +1,30 @@
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .title {
+    font-weight: 500;
+    font-size: 1.5em;
+    font-stretch: 100%;
+    color: #1D1F20;
+    background: #E5E5E5;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  .credits {
+    position: absolute;
+    bottom: 0;
+
+    p {
+      font-size: 0.7em;
+      font-weight: 400;
+      color: #1D1F20;
+      background: #E5E5E5;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+  }
+}
