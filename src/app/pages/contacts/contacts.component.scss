@@ -19,21 +19,24 @@
     border-radius: 10px;
   }
 
-  .phone {
+  .title-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .row-div {
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
+  }
 
-    p {
-      margin-top: 8px;
-      margin-left: 10px;
-      color: #6C757D;
-    }
+  .data {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #6C757D;
   }
 
   .email {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
     padding-left: 10px;
 
     ion-icon {
@@ -54,10 +57,6 @@
         text-decoration: none;
       }
     }
-  }
-
-  .social {
-    padding-top: 10px;
   }
 
   .credits {
