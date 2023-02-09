@@ -1,0 +1,100 @@
+#cursor {
+  background-color: black;
+  border-radius: 5px;
+
+  height: 25px;
+  width: 25px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bar {
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid black;
+  }
+
+  p {
+    color: #6C757D;
+    padding: 10px;
+  }
+
+  p:hover {
+    border: 2px solid #6C757D;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  .selected {
+    color: #F8F9FA;
+    border-radius: 5px;
+    background: #1D1F20;
+    padding: 10px;
+  }
+
+  .tab p {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tab p::after,
+  .tab p::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #6C757D;
+  }
+
+  .tab p::before {
+    left: -2.5px;
+  }
+
+  .tab p::after {
+    right: 2.5px;
+    background: #6C757D;
+    -webkit-transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .tab:active p:after {
+    background: #6C757D;
+    width: 100%;
+    -webkit-transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .tab:active p:after {
+    background: transparent;
+    width: 100%;
+    -webkit-transition: 0s;
+    transition: 0s;
+  }
+}
