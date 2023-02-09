@@ -24,6 +24,7 @@ export class AppComponent {
         if (this.router.url === '/resume') this.tabsStatus = [false, true, false, false];
         if (this.router.url === '/education') this.tabsStatus = [false, false, true, false];
         if (this.router.url === '/contacts') this.tabsStatus = [false, false, false, true];
+        if (this.router.url === '/loading') this.tabsStatus = [false, false, false, false];
       }
     });
 
