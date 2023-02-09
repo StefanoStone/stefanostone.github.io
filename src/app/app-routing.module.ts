@@ -4,6 +4,7 @@ import {AboutComponent} from "./pages/about/about.component";
 import {ContactsComponent} from "./pages/contacts/contacts.component";
 import {EducationComponent} from "./pages/education/education.component";
 import {ResumeComponent} from "./pages/resume/resume.component";
+import {LoaderComponent} from "./pages/loader/loader.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/about', pathMatch: 'full' },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'resume', component: ResumeComponent },
   { path: 'education', component: EducationComponent },
   { path: 'contacts', component: ContactsComponent },
+  { path: 'loading', component: LoaderComponent }
 ];
 
 @NgModule({

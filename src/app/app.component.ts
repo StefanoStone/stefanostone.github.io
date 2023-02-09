@@ -31,6 +31,7 @@ export class AppComponent {
     if (this.switching) return;
 
     this.switching = true;
+    this.router.navigate(['/loading']);
     this.tabsStatus = [false, false, false, false];
     setTimeout(() => {
       this.switching = false;
