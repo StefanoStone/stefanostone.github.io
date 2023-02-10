@@ -1,8 +1,9 @@
 <div id="body">
   <div id="content">
     <paragraph-title content="Degrees"></paragraph-title>
-    <dotted-list-element></dotted-list-element>
-    <dotted-list-element></dotted-list-element>
+    <dotted-list-element *ngFor="let degree of degrees" [element]="degree"></dotted-list-element>
     <paragraph-title content="Defended Thesis"></paragraph-title>
+    <dotted-list-element *ngFor="let thesis of theses" [element]="thesis"></dotted-list-element>
+
   </div>
 </div>
