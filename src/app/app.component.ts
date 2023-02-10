@@ -1,5 +1,5 @@
 import {Component, HostListener} from '@angular/core';
-import {Tabs} from "./models/tabs";
+import {Tabs} from "./models/Tabs";
 import {NavigationEnd, Router} from "@angular/router";
 
 @Component({
