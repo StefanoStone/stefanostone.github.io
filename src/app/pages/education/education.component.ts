@@ -31,7 +31,7 @@ export class EducationComponent {
       title: 'A methodology and an App for measuring blood pressure',
       subtitle: 'University of Molise | 2021',
       description: 'Thesis in the course of Hands on Machine Learning for the prediction of blood pressure values with ' +
-        'the use of a mobile application and the support of a smartwatch with a PPG sensor built-in.'
+        'the use of a mobile application and the support of a smartwatch with a PPG sensor built-in'
     }
   ]
 

@@ -11,7 +11,8 @@
     font-stretch: 125%;
     color: #1D1F20;
     background: #E5E5E5;
-    padding: 0.5em 0.5em 0.5em 0.5em; // top right bottom left
+    width: fit-content;
+    padding: 0.5em;
     margin: 0 0 0 1em;
     border-radius: 15px;
   }
@@ -20,7 +21,7 @@
     color: #6C757D;
     font-size: 1em;
     font-weight: 500;
-    margin: 0.5em 0 0 2em;
+    margin: 0.5em 0 0 2em; // top right bottom left
     font-stretch: 100%;
   }
 
