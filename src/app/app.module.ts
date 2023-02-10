@@ -7,6 +7,7 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { EducationComponent } from './pages/education/education.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { LoaderComponent } from './pages/loader/loader.component';
+import { DottedListElementComponent } from './components/dotted-list-element/dotted-list-element.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { LoaderComponent } from './pages/loader/loader.component';
     ResumeComponent,
     EducationComponent,
     ContactsComponent,
-    LoaderComponent
+    LoaderComponent,
+    DottedListElementComponent
   ],
   imports: [
     BrowserModule,
