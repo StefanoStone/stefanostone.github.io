@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ListItem} from "../../models/ListItem";
 
 @Component({
   selector: 'app-resume',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ResumeComponent {
 
+  projects: ListItem[] = [];
+  workingExperience: ListItem[] = [];
+
+  constructor() {
+  }
 }
