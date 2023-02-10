@@ -8,12 +8,23 @@ import {ListItem} from "../../models/ListItem";
 })
 export class ResumeComponent {
 
-  // TODO add
-  // progetto java
-  // progetto mongodb (?)
-  // progetto ionic (manager magistrale)
-
   projects: ListItem[] = [
+    {
+      title: 'Front-End Developer',
+      subtitle: 'Università della Svizzera Italiana | October 2022 - January 2023',
+      description: 'Development of a web portal to track travels of USI employees'
+    },
+    {
+      title: 'Machine Learning Engineer',
+      subtitle: 'Università della Svizzera Italiana | October 2022 - January 2023',
+      description: 'Development of a machine learning model for the prediction of issue assignee in github and ' +
+        'prediction of method name in Java'
+    },
+    {
+      title: 'Front-End Project Manager',
+      subtitle: 'University of Molise | March 2022 - July 2022',
+      description: 'Team manager for the development of "App Unimol”, an application used by university students'
+    },
     {
       title: 'Android app design and development',
       subtitle: 'University of Molise | October 2020 – January 2021',
@@ -24,6 +35,11 @@ export class ResumeComponent {
       title: 'Hybrid architecture app design and development',
       subtitle: 'University of Molise | March 2020 – July 2020',
       description: 'Front-end team member for development of UniMove, hybrid app based on Ionic-Angular framework'
+    },
+    {
+      title: 'Java videogame development',
+      subtitle: 'University of Molise | March 2019 - July 2019',
+      description: 'Development of a videogame in Java for learning purposes'
     },
     {
       title: 'Management program in C language',
