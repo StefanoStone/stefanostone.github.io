@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {ListItem} from "../../models/ListItem";
 
 @Component({
   selector: 'dotted-list-element',
@@ -7,5 +8,13 @@ import { Component } from '@angular/core';
 })
 export class DottedListElementComponent {
 
-    constructor() { }
+    @Input() element: ListItem;
+
+    constructor() {
+      this.element = {
+        title: "Title",
+        subtitle: "Subtitle",
+        description: "Description"
+      }
+    }
 }
