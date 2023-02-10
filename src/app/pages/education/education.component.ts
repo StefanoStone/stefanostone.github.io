@@ -22,7 +22,7 @@ export class EducationComponent {
     {
       title: 'Bachelor in Computer Science',
       subtitle: 'University of Molise | 2018 - 2021',
-      description: 'Graduated defending a thesis on Machine Learining'
+      description: 'Graduated defending a thesis on Machine Learning'
     }
   ];
 
