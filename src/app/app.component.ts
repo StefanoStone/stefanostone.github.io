@@ -33,11 +33,11 @@ export class AppComponent {
 
   @HostListener('document:mousemove', ['$event'])
   onMousemove(e: any) {
-    if (!e.sourceCapabilities.firesTouchEvents) {
-      this.cursor.style.display = "block";
-      this.cursor.style.top = e.pageY + "px";
-      this.cursor.style.left = e.pageX + "px";
-    }
+    if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents) return;
+
+    this.cursor.style.display = "block";
+    this.cursor.style.top = e.pageY + "px";
+    this.cursor.style.left = e.pageX + "px";
   }
 
   selectTab(tab: number) {
