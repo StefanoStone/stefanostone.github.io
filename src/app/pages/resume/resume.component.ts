@@ -11,12 +11,12 @@ export class ResumeComponent {
   projects: ListItem[] = [
     {
       title: 'Front-End Developer',
-      subtitle: 'Università della Svizzera Italiana | October 2022 - January 2023',
+      subtitle: 'Università della Svizzera italiana | October 2022 - January 2023',
       description: 'Development of a web portal to track travels of USI employees'
     },
     {
       title: 'Machine Learning Engineer',
-      subtitle: 'Università della Svizzera Italiana | October 2022 - January 2023',
+      subtitle: 'Università della Svizzera italiana | October 2022 - January 2023',
       description: 'Development of a machine learning model for the prediction of issue assignee in github and ' +
         'prediction of method name in Java'
     },
