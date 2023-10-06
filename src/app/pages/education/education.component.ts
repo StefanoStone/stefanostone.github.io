@@ -10,6 +10,11 @@ export class EducationComponent {
 
   degrees: ListItem[] = [
     {
+      title: 'PhD in Computer Science/Software Engineering',
+      subtitle: 'Università della Svizzera italiana | 2023 - ongoing',
+      description: 'REVEAL (Reverse Engineering, Visualization, Evolution Analysis Lab) group'
+    },
+    {
       title: 'Master in Software and Data Engineering',
       subtitle: 'Università della Svizzera italiana | 2022 - 2023',
       description: 'Joint degree with University of Molise'
