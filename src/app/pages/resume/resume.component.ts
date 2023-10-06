@@ -68,6 +68,14 @@ export class ResumeComponent {
     }
   ];
 
+  teachingExperience: ListItem[] = [
+    {
+      title: 'Teaching Assistant',
+      subtitle: 'USI | September 2023 - January 2024',
+      description: 'Course: Engineering of Domain Specific Languages'
+    }
+  ];
+
   constructor() {
   }
 }
