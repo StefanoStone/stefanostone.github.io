@@ -1,8 +1,8 @@
 #body {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 90vh;
 
   ion-icon {
     color: #1D1F20;
@@ -45,8 +45,9 @@
   }
 
   .cv_download {
-    position: absolute;
-    bottom: 50px;
+    // position: absolute;
+    // bottom: 50px;
+    padding-top: 85px;
 
     a {
       justify-content: center;
@@ -59,8 +60,8 @@
 
 
   .credits {
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
 
     p {
       font-size: 0.7em;
