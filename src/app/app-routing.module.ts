@@ -7,12 +7,13 @@ import {ResumeComponent} from "./pages/resume/resume.component";
 import {LoaderComponent} from "./pages/loader/loader.component";
 
 const routes: Routes = [
-  { path: '', redirectTo: '/about', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'education', component: EducationComponent },
   { path: 'contacts', component: ContactsComponent },
-  { path: 'loading', component: LoaderComponent }
+  { path: 'loading', component: LoaderComponent },
+  { path: '', redirectTo: '/about', pathMatch: 'full' },
+  { path: '**', redirectTo: '/about', pathMatch: 'full' }
 ];
 
 @NgModule({
