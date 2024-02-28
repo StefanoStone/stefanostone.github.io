@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'contacts', component: ContactsComponent },
   { path: 'loading', component: LoaderComponent },
   { path: '', redirectTo: '/about', pathMatch: 'full' },
-  { path: '**, redirectTo: '/about', pathMatch: 'full' }
+  { path: '**', redirectTo: '/about', pathMatch: 'full' }
 ];
 
 @NgModule({
