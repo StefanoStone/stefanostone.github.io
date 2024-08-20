@@ -61,7 +61,7 @@ export class AppComponent {
       case Tabs.resume:
         this.router.navigate(['/resume'])
         break;
-      case Tabs.education:
+      case Tabs.academia:
         this.router.navigate(['/education'])
         break;
       case Tabs.contacts:

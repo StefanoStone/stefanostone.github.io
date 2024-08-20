@@ -14,18 +14,6 @@
   mix-blend-mode: difference;
 }
 
-/*@keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
-}
-
-@-webkit-keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
-}*/
-
 .body {
   display: flex;
   justify-content: center;
@@ -44,9 +32,15 @@
     padding: 10px;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     p {
       font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 370px) {
+    p {
+      font-size: 0.5rem;
     }
   }
 
