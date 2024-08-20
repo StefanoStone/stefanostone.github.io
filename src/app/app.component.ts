@@ -22,7 +22,7 @@ export class AppComponent {
       if (e instanceof NavigationEnd) {
         if (this.router.url === '/about') this.tabsStatus = [true, false, false, false];
         if (this.router.url === '/resume') this.tabsStatus = [false, true, false, false];
-        if (this.router.url === '/education') this.tabsStatus = [false, false, true, false];
+        if (this.router.url === '/publications') this.tabsStatus = [false, false, true, false];
         if (this.router.url === '/contacts') this.tabsStatus = [false, false, false, true];
         if (this.router.url === '/loading') this.tabsStatus = [false, false, false, false];
       }
@@ -62,7 +62,7 @@ export class AppComponent {
         this.router.navigate(['/resume'])
         break;
       case Tabs.academia:
-        this.router.navigate(['/education'])
+        this.router.navigate(['/publications'])
         break;
       case Tabs.contacts:
         this.router.navigate(['/contacts'])

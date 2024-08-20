@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import {ListItem} from "../../models/ListItem";
 
 @Component({
-  selector: 'app-education',
-  templateUrl: './education.component.html',
-  styleUrls: ['./education.component.scss']
+  selector: 'app-publications',
+  templateUrl: './publications.component.html',
+  styleUrls: ['./publications.component.scss']
 })
-export class EducationComponent {
+export class PublicationsComponent {
 
   teachingExperience: ListItem[] = [
     {
