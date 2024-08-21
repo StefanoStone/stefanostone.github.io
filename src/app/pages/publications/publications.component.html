@@ -1,10 +1,6 @@
 <div id="body">
   <div id="content">
-    <paragraph-title content="Publications"></paragraph-title>
-    <dotted-list-element *ngFor="let paper of papers" [element]="paper"></dotted-list-element>
-    <br><br>
-    <paragraph-title content="Teaching Experience"></paragraph-title>
-    <dotted-list-element *ngFor="let teach of teachingExperience" [element]="teach"></dotted-list-element>
-    <br><br>
+    <paragraph-title content="Conference"></paragraph-title>
+    <paper-list-element *ngFor="let paper of conference_papers" [element]="paper"></paper-list-element>
   </div>
 </div>

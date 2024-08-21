@@ -8,24 +8,14 @@ import {ListItem} from "../../models/ListItem";
 })
 export class PublicationsComponent {
 
-  teachingExperience: ListItem[] = [
+  conference_papers: ListItem[] = [
     {
-      title: 'Teaching Assistant',
-      subtitle: 'USI | September 2023 - January 2024',
-      description: 'Course: Engineering of Domain Specific Languages'
-    },
-    {
-      title: 'Teaching Assistant',
-      subtitle: 'USI | March 2024 - May 2024',
-      description: 'Course: Software Atelier 4'
-    }
-  ];
-
-  papers: ListItem[] = [
-    {
-      title: 'Paper',
-      subtitle: 'Venue',
-      description: '??'
+      title: 'Towards the Automatic Replication of Gameplays to Support Game Debugging',
+      subtitle: 'Foundations of Applied Software Engineering for Games workshop 2024 | FaSE4Games',
+      description: 'Short paper',
+      doi: 'https://doi.org/10.1145/3663532.3664465',
+      pdf_path: 'assets/papers/fase4games2024.pdf',
+      type: 'Open Access'
     }
   ]
 
