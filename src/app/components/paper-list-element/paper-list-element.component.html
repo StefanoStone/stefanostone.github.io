@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <p class="title">{{element.title}}</p>
+  <p class="subtitle">{{element.subtitle}}</p>
+  <p class="description">{{element.description}}</p>
+  <p class="subtitle">
+    DOI: <a href="{{element.doi}}">{{element.doi}}</a>
+
+    <a href="{{element.pdf_path}}" target="_blank" title="Download {{element.type}}">
+      <ion-icon name="document-text-outline"></ion-icon>
+    </a>
+
+    <!--
+    <a href="{{element.pres_path}}" target="_blank">
+      <ion-icon name="albums-outline"></ion-icon>
+    </a>
+    -->
+  </p>
+</div>

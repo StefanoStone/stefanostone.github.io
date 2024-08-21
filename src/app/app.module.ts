@@ -9,6 +9,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { LoaderComponent } from './pages/loader/loader.component';
 import { DottedListElementComponent } from './components/dotted-list-element/dotted-list-element.component';
 import { ParagraphTitleComponent } from './components/paragraph-title/paragraph-title.component';
+import { PaperListElementComponent } from './components/paper-list-element/paper-list-element.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ParagraphTitleComponent } from './components/paragraph-title/paragraph-
     ContactsComponent,
     LoaderComponent,
     DottedListElementComponent,
-    ParagraphTitleComponent
+    ParagraphTitleComponent,
+    PaperListElementComponent
   ],
   imports: [
     BrowserModule,
