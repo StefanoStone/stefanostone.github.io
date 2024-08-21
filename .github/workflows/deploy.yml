@@ -24,10 +24,11 @@ jobs:
       run: npm run build 
       
     - name: Copy
-      uses: canastro/copy-action@0.0.2
-      with:
-        source: ./dist/stefanostone.github.io/index.html
-        target: ./dist/stefanostone.github.io/404.html
+      run: cp ./dist/stefanostone.github.io/index.html ./dist/stefanostone.github.io/404.html
+      #uses: canastro/copy-action@0.0.2
+      #with:
+      #  source: ./dist/stefanostone.github.io/index.html
+      #  target: ./dist/stefanostone.github.io/404.html
 
     - name: Deploy
       if: success()
