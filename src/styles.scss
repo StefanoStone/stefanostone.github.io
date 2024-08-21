@@ -21,6 +21,13 @@ html {
   background-color: #F8F9FA;
 }
 
+#body {
+  ion-icon {
+    color: #1D1F20;
+    pointer-events: none;
+  }
+}
+
 body *, body button {
   // cursor: none !important;
 }
