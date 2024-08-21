@@ -15,12 +15,19 @@ $custom-text-grey: #6C757D;
 }
 
 html {
-  cursor: none;
+  // cursor: none;
   font-family: 'Hubot Sans', sans-serif;
   height: 100vh;
   background-color: #F8F9FA;
 }
 
+#body {
+  ion-icon {
+    color: #1D1F20;
+    pointer-events: none;
+  }
+}
+
 body *, body button {
-  cursor: none !important;
+  // cursor: none !important;
 }

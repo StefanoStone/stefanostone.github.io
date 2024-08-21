@@ -4,11 +4,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ResumeComponent } from './pages/resume/resume.component';
-import { EducationComponent } from './pages/education/education.component';
+import { PublicationsComponent } from './pages/publications/publications.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { LoaderComponent } from './pages/loader/loader.component';
 import { DottedListElementComponent } from './components/dotted-list-element/dotted-list-element.component';
 import { ParagraphTitleComponent } from './components/paragraph-title/paragraph-title.component';
+import { PaperListElementComponent } from './components/paper-list-element/paper-list-element.component';
 
 
 @NgModule({
@@ -16,11 +17,12 @@ import { ParagraphTitleComponent } from './components/paragraph-title/paragraph-
     AppComponent,
     AboutComponent,
     ResumeComponent,
-    EducationComponent,
+    PublicationsComponent,
     ContactsComponent,
     LoaderComponent,
     DottedListElementComponent,
-    ParagraphTitleComponent
+    ParagraphTitleComponent,
+    PaperListElementComponent
   ],
   imports: [
     BrowserModule,

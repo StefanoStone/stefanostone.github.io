@@ -48,6 +48,44 @@ export class ResumeComponent {
     }
   ];
 
+  degrees: ListItem[] = [
+    {
+      title: 'PhD in Computer Science/Software Engineering',
+      subtitle: 'Università della Svizzera italiana | 2023 - ongoing',
+      description: 'REVEAL (Reverse Engineering, Visualization, Evolution Analysis Lab) group'
+    },
+    {
+      title: 'Master in Software and Data Engineering',
+      subtitle: 'Università della Svizzera italiana | 2022 - 2023',
+      description: 'Joint degree with University of Molise'
+    },
+    {
+      title: 'Master in Software Systems Security',
+      subtitle: 'University of Molise | 2021 - 2023',
+      description: 'Joint degree with Università della Svizzera italiana'
+    },
+    {
+      title: 'Bachelor in Computer Science',
+      subtitle: 'University of Molise | 2018 - 2021',
+      description: 'Graduated defending a thesis on Machine Learning'
+    }
+  ];
+
+  theses: ListItem[] = [
+    {
+      title: 'A methodology and an App for measuring blood pressure',
+      subtitle: 'University of Molise | 2021',
+      description: 'Thesis in the course of Hands on Machine Learning for the prediction of blood pressure values with ' +
+        'the use of a mobile application and the support of a smartwatch with a PPG sensor built-in'
+    },
+    {
+      title: 'RePlay: Replicating Gameplay through Video Analysis and On-Screen Controls',
+      subtitle: 'University of Molise & Università della Svizzera italiana | 2023',
+      description: 'Thesis in the course of Software Analytics for the replication of gameplay through the analysis of ' +
+        'video recordings by exploiting on-screen controls in the gameplay; Proof of Concept with the game Trackmania.'
+    }
+  ]
+
   workingExperience: ListItem[] = [
     {
       title: 'Front-End Developer',
@@ -73,6 +111,11 @@ export class ResumeComponent {
       title: 'Teaching Assistant',
       subtitle: 'USI | September 2023 - January 2024',
       description: 'Course: Engineering of Domain Specific Languages'
+    },
+    {
+      title: 'Teaching Assistant',
+      subtitle: 'USI | March 2024 - May 2024',
+      description: 'Course: Software Atelier 4'
     }
   ];
 
