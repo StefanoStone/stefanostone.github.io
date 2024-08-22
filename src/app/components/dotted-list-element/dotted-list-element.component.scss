@@ -32,6 +32,34 @@
     margin: 0.5em 0 0 2.5em;
     color: #6C757D;
   }
+
+  @media (max-width: 440px) {
+    .title {
+      font-size: 1rem;
+    }
+
+    .subtitle {
+      font-size: 0.8rem;
+    }
+
+    .description {
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .title {
+      font-size: 0.8rem;
+    }
+
+    .subtitle {
+      font-size: 0.7rem;
+    }
+    
+    .description {
+      font-size: 0.6rem;
+    }
+  }
 }
 
 .wrapper:before {
