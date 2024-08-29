@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {ListItem} from "../../models/ListItem";
+import {DataService} from "../../services/data.service";
+import {DataPaths} from "../../models/dataPaths";
 
 @Component({
   selector: 'app-publications',
@@ -8,17 +10,12 @@ import {ListItem} from "../../models/ListItem";
 })
 export class PublicationsComponent {
 
-  conference_papers: ListItem[] = [
-    {
-      title: 'Towards the Automatic Replication of Gameplays to Support Game Debugging',
-      subtitle: 'Foundations of Applied Software Engineering for Games workshop 2024 | FaSE4Games',
-      description: 'Short paper',
-      doi: 'https://doi.org/10.1145/3663532.3664465',
-      pdf_path: 'assets/papers/fase4games2024.pdf',
-      type: 'Open Access'
-    }
-  ]
+  conference_papers: ListItem[] = [];
+  dataPaths = DataPaths;
 
-  constructor() {
+  constructor(private dataService: DataService) {
+    this.dataService.loadListItems(this.dataPaths.publications, (data: ListItem[]) => {
+      this.conference_papers = data;
+    });
   }
 }
