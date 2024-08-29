@@ -10,6 +10,7 @@ import { LoaderComponent } from './pages/loader/loader.component';
 import { DottedListElementComponent } from './components/dotted-list-element/dotted-list-element.component';
 import { ParagraphTitleComponent } from './components/paragraph-title/paragraph-title.component';
 import { PaperListElementComponent } from './components/paper-list-element/paper-list-element.component';
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PaperListElementComponent } from './components/paper-list-element/paper
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
