@@ -1,10 +1,18 @@
 [
   {
+    "title": "Hidden in the Code: Visualizing True Developer Identities",
+    "subtitle": "(Accepted @) Working Conference on Software Visualization 2024 | VISSOFT",
+    "description": "Full paper",
+    "doi": "TBD",
+    "pdf_path": "https://inf.usi.ch/phd/campas/publications/fullVissoft2024.pdf",
+    "type": "Pre-Print"
+  },
+  {
     "title": "Towards the Automatic Replication of Gameplays to Support Game Debugging",
     "subtitle": "Foundations of Applied Software Engineering for Games workshop 2024 | FaSE4Games",
     "description": "Short paper",
     "doi": "https://doi.org/10.1145/3663532.3664465",
-    "pdf_path": "assets/papers/fase4games2024.pdf",
+    "pdf_path": "https://inf.usi.ch/phd/campas/publications/fase4games2024.pdf",
     "type": "Open Access"
   }
 ]
