@@ -1,9 +1,9 @@
 [
   {
     "title": "Hidden in the Code: Visualizing True Developer Identities",
-    "subtitle": "(Accepted @) Working Conference on Software Visualization 2024 | VISSOFT",
+    "subtitle": "Working Conference on Software Visualization 2024 | VISSOFT",
     "description": "Full paper",
-    "doi": "TBD",
+    "doi": "https://doi.org/10.1109/VISSOFT64034.2024.00013",
     "pdf_path": "https://inf.usi.ch/phd/campas/publications/fullVissoft2024.pdf",
     "type": "Pre-Print"
   },
