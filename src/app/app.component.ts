@@ -31,14 +31,14 @@ export class AppComponent {
     this.cursor = document.getElementById("cursor");
   }
 
-  @HostListener('document:mousemove', ['$event'])
-  onMousemove(e: any) {
-    if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents) return;
-
-    this.cursor.style.display = "block";
-    this.cursor.style.top = e.pageY + "px";
-    this.cursor.style.left = e.pageX + "px";
-  }
+  // @HostListener('document:mousemove', ['$event'])
+  // onMousemove(e: any) {
+  //   if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents) return;
+  //
+  //   this.cursor.style.display = "block";
+  //   this.cursor.style.top = e.pageY + "px";
+  //   this.cursor.style.left = e.pageX + "px";
+  // }
 
   selectTab(tab: number) {
     if (this.switching) return;
