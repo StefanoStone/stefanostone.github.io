@@ -1,5 +1,10 @@
 [
   {
+    "title": "Software Engineer",
+    "subtitle": "Open Source Project",
+    "description": "Development of a python wrapper for the Open Source project \"CLOC\""
+  },
+  {
     "title": "Front-End Developer",
     "subtitle": "Università della Svizzera italiana | October 2022 - January 2023",
     "description": "Development of a web portal to track travels of USI employees"
