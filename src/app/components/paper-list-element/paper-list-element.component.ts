@@ -8,4 +8,7 @@ import {DottedListElementComponent} from "../dotted-list-element/dotted-list-ele
 })
 export class PaperListElementComponent extends DottedListElementComponent {
 
+  getFilePath(): string {
+    return this.element.pdf_path || this.element.local_path || '';
+  }
 }
