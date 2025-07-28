@@ -4,5 +4,6 @@ export interface ListItem {
   description?: string;
   doi?: string;
   pdf_path?: string;
+  local_path?: string;
   type?: string;
 }
