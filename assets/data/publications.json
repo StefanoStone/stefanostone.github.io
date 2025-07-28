@@ -1,5 +1,14 @@
 [
   {
+    "title": "Fine-Grained Developer Reification",
+    "subtitle": "Foundations of Software Engineering 2025 | FSE Companion",
+    "description": "Doctoral Symposium paper",
+    "doi": "https://doi.org/10.1145/3696630.3731463",
+    "pdf_path": "https://dl.acm.org/doi/pdf/10.1145/3696630.3731463",
+    "local_path": "assets/documents/fse2025.pdf",
+    "type": "Open Access"
+  },
+  {
     "title": "Hidden in the Code: Visualizing True Developer Identities",
     "subtitle": "Working Conference on Software Visualization 2024 | VISSOFT",
     "description": "Full paper",
@@ -15,15 +24,6 @@
     "doi": "https://doi.org/10.1145/3663532.3664465",
     "pdf_path": "https://dl.acm.org/doi/pdf/10.1145/3663532.3664465",
     "local_path": "assets/documents/fase4games2024.pdf",
-    "type": "Open Access"
-  },
-  {
-    "title": "Fine-Grained Developer Reification",
-    "subtitle": "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering | FSE Companion 2025",
-    "description": "Doctoral Symposium paper",
-    "doi": "https://doi.org/10.1145/3663532.3664465",
-    "pdf_path": "https://dl.acm.org/doi/pdf/10.1145/3696630.3731463",
-    "local_path": "assets/documents/fse2025.pdf",
     "type": "Open Access"
   }
 ]
