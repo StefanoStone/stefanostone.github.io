@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {AboutComponent} from "./pages/about/about.component";
 import {ContactsComponent} from "./pages/contacts/contacts.component";
-import {PublicationsComponent} from "./pages/publications/publications.component";
 import {ResumeComponent} from "./pages/resume/resume.component";
 import {LoaderComponent} from "./pages/loader/loader.component";
+import { EducationComponent } from './pages/education/education.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'resume', component: ResumeComponent },
-  { path: 'publications', component: PublicationsComponent },
+  { path: 'education', component: EducationComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: 'loading', component: LoaderComponent },
   { path: '', redirectTo: '/about', pathMatch: 'full' },
