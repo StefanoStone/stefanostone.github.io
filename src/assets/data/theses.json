@@ -1,12 +1,12 @@
 [
   {
-    "title": "A methodology and an App for measuring blood pressure",
-    "subtitle": "University of Molise | 2021",
-    "description": "Thesis in the course of Hands on Machine Learning for the prediction of blood pressure values with the use of a mobile application and the support of a smartwatch with a PPG sensor built-in"
-  },
-  {
     "title": "RePlay: Replicating Gameplay through Video Analysis and On-Screen Controls",
     "subtitle": "University of Molise & Università della Svizzera italiana | 2023",
     "description": "Thesis in the course of Software Analytics for the replication of gameplay through the analysis of video recordings by exploiting on-screen controls in the gameplay; Proof of Concept with the game Trackmania."
-  }
+  },
+  {
+    "title": "A methodology and an App for measuring blood pressure",
+    "subtitle": "University of Molise | 2021",
+    "description": "Thesis in the course of Hands on Machine Learning for the prediction of blood pressure values with the use of a mobile application and the support of a smartwatch with a PPG sensor built-in"
+  } 
 ]
