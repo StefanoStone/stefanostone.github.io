@@ -11,6 +11,7 @@ import { DottedListElementComponent } from './components/dotted-list-element/dot
 import { ParagraphTitleComponent } from './components/paragraph-title/paragraph-title.component';
 import { PaperListElementComponent } from './components/paper-list-element/paper-list-element.component';
 import {HttpClientModule} from "@angular/common/http";
+import { LinkListElementComponent } from './components/link-list-element/link-list-element.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {HttpClientModule} from "@angular/common/http";
     LoaderComponent,
     DottedListElementComponent,
     ParagraphTitleComponent,
-    PaperListElementComponent
+    PaperListElementComponent,
+    LinkListElementComponent
   ],
   imports: [
     BrowserModule,

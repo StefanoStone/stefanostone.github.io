@@ -11,7 +11,8 @@ import {DataPaths} from "../../models/dataPaths";
 export class ResumeComponent {
 
   workingExperience: ListItem[] = [];
-  conference_papers: ListItem[] = [];
+  conferencePapers: ListItem[] = [];
+  openSourceProjects: ListItem[] = [];
   teachingExperience: ListItem[] = [];
   dataPaths = DataPaths;
 
@@ -21,8 +22,12 @@ export class ResumeComponent {
       this.workingExperience = data;
     });
 
+    this.dataService.loadListItems(this.dataPaths.openSourceProjects, (data: ListItem[]) => {
+      this.openSourceProjects = data;
+    });
+
     this.dataService.loadListItems(this.dataPaths.publications, (data: ListItem[]) => {
-      this.conference_papers = data;
+      this.conferencePapers = data;
     });
 
     this.dataService.loadListItems(this.dataPaths.teachingExperience, (data: ListItem[]) => {
