@@ -3,8 +3,11 @@
     <paragraph-title content="Working Experience"></paragraph-title>
     <dotted-list-element *ngFor="let work of workingExperience" [element]="work"></dotted-list-element>
     <br><br>
+    <paragraph-title content="Open Source Projects (as Maintainer)"></paragraph-title>
+    <link-list-element *ngFor="let project of openSourceProjects" [element]="project"></link-list-element>
+    <br><br>
     <paragraph-title content="Publications"></paragraph-title>
-    <paper-list-element *ngFor="let paper of conference_papers" [element]="paper"></paper-list-element>
+    <paper-list-element *ngFor="let paper of conferencePapers" [element]="paper"></paper-list-element>
     <br><br>
     <paragraph-title content="Teaching Experience"></paragraph-title>
     <dotted-list-element *ngFor="let teach of teachingExperience" [element]="teach"></dotted-list-element>

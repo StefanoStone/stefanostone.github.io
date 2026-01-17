@@ -10,14 +10,14 @@ import {DataPaths} from "../../models/dataPaths";
 })
 export class EducationComponent {
 
-  projects: ListItem[] = [];
+  studentProjects: ListItem[] = [];
   degrees: ListItem[] = [];
   theses: ListItem[] = [];
   dataPaths = DataPaths;
 
   constructor(private dataService: DataService) {
-    this.dataService.loadListItems(this.dataPaths.projects, (data: ListItem[]) => {
-      this.projects = data;
+    this.dataService.loadListItems(this.dataPaths.studentProjects, (data: ListItem[]) => {
+      this.studentProjects = data;
     });
 
     this.dataService.loadListItems(this.dataPaths.degrees, (data: ListItem[]) => {

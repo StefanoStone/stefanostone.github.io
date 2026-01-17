@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Software Engineer",
+    "subtitle": "Open Source Project",
+    "description": "Development of a python wrapper for the Open Source project \"CLOC\"",
+    "icon": "",
+    "link": "https://github.com/pycloc/pycloc"
+  },
+  {
+    "title": "Software Engineer",
+    "subtitle": "Open Source Project",
+    "description": "Development of a python wrapper for the Open Source project \"CLOC\"",
+    "icon": "",
+    "link": "https://github.com/USIREVEAL/gitminer"
+  }
+]
