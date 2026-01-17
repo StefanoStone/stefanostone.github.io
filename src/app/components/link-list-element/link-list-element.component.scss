@@ -1,22 +1,21 @@
 @import "../dotted-list-element/dotted-list-element.component.scss";
 
 ion-icon {
-  font-size: 1.1em !important;
-  padding-left: 0.5em;
+  font-size: 1.5em !important;
+  padding-right: 0.5em;
 }
 
-.doi {
+.link {
   font-size: 0.8em !important;
 }
 
 @media (max-width: 440px) {
-  .doi {
+  .link {
     font-size: 0.7rem !important;
   }
 }
 
 @media (max-width: 370px) {
-
   .description {
     font-size: 0.6rem !important;
   }

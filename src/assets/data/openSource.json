@@ -1,16 +1,16 @@
 [
   {
-    "title": "Software Engineer",
-    "subtitle": "Open Source Project",
-    "description": "Development of a python wrapper for the Open Source project \"CLOC\"",
-    "icon": "",
+    "title": "Pycloc",
+    "subtitle": "Python wrapper for the Open Source project \"CLOC\"",
+    "description": "Founder and Maintainer",
+    "icon": "logo-github",
     "link": "https://github.com/pycloc/pycloc"
   },
   {
-    "title": "Software Engineer",
-    "subtitle": "Open Source Project",
-    "description": "Development of a python wrapper for the Open Source project \"CLOC\"",
-    "icon": "",
+    "title": "Gitminer",
+    "subtitle": "Git miner for Pharo Smalltalk",
+    "description": "Founder and Maintainer",
+    "icon": "logo-github",
     "link": "https://github.com/USIREVEAL/gitminer"
   }
 ]
