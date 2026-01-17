@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Pycloc",
+    "subtitle": "Python wrapper for the Open Source project \"CLOC\"",
+    "description": "Founder and Maintainer",
+    "icon": "logo-github",
+    "link": "https://github.com/pycloc/pycloc"
+  },
+  {
+    "title": "Gitminer",
+    "subtitle": "Git miner for Pharo Smalltalk",
+    "description": "Founder and Maintainer",
+    "icon": "logo-github",
+    "link": "https://github.com/USIREVEAL/gitminer"
+  }
+]
