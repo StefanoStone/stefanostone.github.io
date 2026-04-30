@@ -24,7 +24,7 @@ jobs:
       run: npm run build 
       
     - name: Copy
-      run: cp ./dist/stefanocampanella.dev/index.html ./dist/stefanocampanella.dev/404.html
+      run: cp ./dist/stefanostone.github.io/index.html ./dist/stefanostone.github.io/404.html
 
     - name: Deploy
       if: success()
